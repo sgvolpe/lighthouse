@@ -24,7 +24,8 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sgvolpe2.eu.pythonanywhere.com']
+
 
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -53,7 +54,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'bootstrap3',
     'parseBFM',
-    
+
 
 
 )
